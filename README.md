@@ -1,5 +1,5 @@
-```markdown
-# Task Management Application
+
+## Task Management Application
 
 This project is a simple task management application that allows users to create, read, update, and delete tasks. The application stores tasks in the browser's local storage, making it persistent across page reloads.
 
@@ -16,7 +16,7 @@ This project is a simple task management application that allows users to create
 
 The following variables reference HTML elements in the document:
 
-```javascript
+### javascript
 let form = document.getElementById('form');
 let textInput = document.getElementById('textInput');
 let msg = document.getElementById('msg');
@@ -24,16 +24,15 @@ let dateInput = document.getElementById('dateInput');
 let textarea = document.getElementById('textarea');
 let tasks = document.getElementById('tasks');
 let add = document.getElementById('add');
-```
+
 
 ### Event Listeners
 
-```javascript
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     formValidation();
 });
-```
+
 
 ### Functions
 
